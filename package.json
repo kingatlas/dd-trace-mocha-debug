@@ -1,0 +1,16 @@
+{
+  "name": "debug-dd-trace-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "traced-test": "NODE_OPTIONS='-r dd-trace/ci/init' mocha test.js"
+  },
+  "dependencies": {
+    "dd-trace": "3.2.0",
+    "mocha": "9.1.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
